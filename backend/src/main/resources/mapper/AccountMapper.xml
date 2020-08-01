@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="seu.se.practice2.propainting.model.dao.mapper.AccountMapper">
+	<resultMap id="BaseResultMap" type="seu.se.practice2.propainting.model.dao.entity.Account">
+		<id column="email" jdbcType="VARCHAR" property="email"/>
+		<result column="uid" jdbcType="BIGINT" property="uid"/>
+		<result column="name" jdbcType="VARCHAR" property="name"/>
+		<result column="password" jdbcType="VARCHAR" property="password"/>
+		<result column="avatar" jdbcType="VARCHAR" property="avatar"/>
+		<result column="phone" jdbcType="CHAR" property="phone"/>
+		<result column="contribution" jdbcType="INTEGER" property="contribution"/>
+		<result column="points" jdbcType="INTEGER" property="points"/>
+		<result column="authority" jdbcType="TINYINT" property="authority"/>
+	</resultMap>
+</mapper>
