@@ -11,7 +11,7 @@
     "ant-design-vue": "^1.6.3",
     "axios": "^0.19.2",
     "babel-polyfill": "^6.26.0",
-    "lodash": "^4.17.19",
+    "lodash": "^4.17.21",
     "parcel-bundler": "^1.12.4",
     "qs": "^6.9.4",
     "vue": "^2.5.17",
